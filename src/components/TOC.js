@@ -36,9 +36,11 @@ class TOC extends Component {
 
     // 최종적으로, 모든 리스트 아이템들을 포함하는 <nav> 요소를 반환합니다.
     return (
-      <nav>
-        <ul>{lists}</ul>
-      </nav>
+      <div className="TOC">
+        <nav>
+          <ul>{lists}</ul>
+        </nav>
+      </div>
     );
   }
 }

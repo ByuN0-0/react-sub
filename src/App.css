@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +35,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main_logo {
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-items: start;
+}
+
+.category {
+  grid-row: 1;
+  grid-column: 1;
+  min-width: 150px;
+  max-height: 100%;
+  padding: 3px;
+  display: flex; /* TOC를 Flex Container로 만듭니다. */
+  flex-direction: column; /* 세로로 배치 */
+  border-right: 1px solid gray;
+  overflow: hidden;
+}
+
+.Control {
+  font-size: 12px;
+  text-align: right;
+}
+
+.content {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: left;
+  align-items: left;
+  margin-left: 15px;
+  width: 100%;
+  max-width: 100%;
+}
+.ReadContent h2 {
+  margin: 5px;
+  padding: 0px;
+}
+
+.Delete {
+  margin-right: 30px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.Clock {
+  font-size: 11px;
+  text-align: center;
+  border-bottom: 1px solid rgb(206, 180, 180);
+}
+.Clock h2 {
+  margin: 5px;
+  padding: 0px;
+}
+.CurrentTime {
+  font-size: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgb(206, 180, 180);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.TOC ul {
+  margin-top: 0px;
 }
