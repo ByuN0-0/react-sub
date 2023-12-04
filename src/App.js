@@ -69,14 +69,14 @@ class App extends Component {
         {
           id: 1,
           title: "5 cats",
-          desc: "HTML is for information",
+          desc: "고양이 다섯마리",
           image:
             "https://images.mypetlife.co.kr/content/uploads/2023/04/13121310/AdobeStock_163366644-1024x570.jpeg",
         },
         {
           id: 2,
           title: "manul cat",
-          desc: "CSS is for design",
+          desc: "귀가 못생긴 고양이",
           image:
             "https://www.cat-lab.co.kr/data/editor/1805/4a609c416f6a655ac25324b32ff4aac9_1526562637_7365.jpg",
         },
