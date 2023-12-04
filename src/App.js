@@ -17,6 +17,11 @@ import cssImg from "./img/css.png";
 import jsImg from "./img/javascript.png";
 import reactImg from "./img/react.png";
 */
+import dogImg from "./img/dog.jpeg";
+import cat10Img from "./img/cat10.jpeg";
+import tongueImg from "./img/tongue.jpeg";
+import behindCatImg from "./img/behind.jpeg";
+
 import "./App.css";
 
 function Clock(props) {
@@ -93,6 +98,30 @@ class App extends Component {
           desc: "Cat likes fish leave the fish to the cat 통념과 마찬가지로 고양이는 실제로 대부분 생선을 좋아한다. 고양이가 살아가기 위해서는 타우린 성분이 필요하고 이게 없으면 생식능력 저하, 야맹증, 실명 등이 일어나는데, 고양이는 개와 달리 스스로 타우린을 합성하지 못하기 때문에 본능적으로 타우린이 많이 들어간 먹잇감을 찾게 된다. 1온스당 소고기 5.5~10mg, 닭고기 9.5mg, 생선 36mg, 새우 48mg의 타우린이 들어있다. 보다시피 수산물에 압도적으로 많이 들어있다. 단, 오징어나 새우는 고양이가 좋아하기는 하지만 알레르기성 질환이 생기기 쉬우므로 주지 말자.",
           image:
             "https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/kVe/image/27QYQvhbGywASTMGZgd9x-UOhpM.jpg",
+        },
+        {
+          id: 5,
+          title: "뿅뿅이",
+          desc: "진돗개",
+          image: dogImg,
+        },
+        {
+          id: 6,
+          title: "뒷모습",
+          desc: "",
+          image: behindCatImg,
+        },
+        {
+          id: 7,
+          title: "냥줍",
+          desc: "들려있는 고양이",
+          image: cat10Img,
+        },
+        {
+          id: 8,
+          title: "혀 낼름",
+          desc: "",
+          image: tongueImg,
         },
       ],
     };
